@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+ 
+
+  header {
+ 
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;   
+  }
+  
+  .logo {
+  
+    font-size: 24px;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+
+
+    
+  
+  }
+  
+  li {
+    margin-right: 28px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+  }
+ 
+  
+  a {
+
+    text-decoration: none;
+   
+  
+  
+  
+  color: #111111;
+  text-decoration: none;
+  }
+  
+  
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .container-fluid2{
+    background: linear-gradient(180deg, rgba(119, 150, 230, 0.25) 0%, rgba(158, 123, 215, 0.25) 100%);
+  
+  }
+  
+  
+  .Btn1 a {
+    text-decoration: none;
+    color: #111111;
+  }
+  .Btn1 {
+    background-color: #F8E643;
+    width: 140px;
+    height: 40px;
+    border: 0cap;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    color: #111111;
+    cursor: pointer;
+
+    font-weight: 400;
+    animation: keyword;
+  
+  
+  }
+  
+  .Btn1{
+    background-image: linear-gradient(to right,#F8E643,);
+  }
+  .Btn1:before{
+  content: "";
+  position: absolute;
+  height: 38px;
+  width: 30px;
+  background: #f3f3f3;
+  box-shadow: 0 0 10px #ffff;
+  filter: blur(1px);
+  opacity: 0.2;
+  left: 1350px;
+  animation: keyword;
+  top: 23px;
+  animation-delay: inherit;
+  transition: 0.9s;
+  transform: rotate(-50deg)translateX(5px)
+  }
+  .Btn1:hover:before{
+    transform:translateX(130px)
+  }
+  .con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Optionally set the height to center vertically */
+  }
+  
+  .centered-word {
+    text-align: center;
+
+  }
+  .Aboutus{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49.6px;
+    text-align: center;
+    
+
+  }
+  .handing{
+    font-family: "Poppins";
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+
+  }
+
+
+.vision{
+  font-family:"Poppins";
+font-size: 40px;
+font-weight: 600;
+
+
+
+}
+.gruopworld{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: justify;
+color:  #555555;
+line-height:28px ;
+
+
+}
+.aboutusimage{
+  width:100%;
+  height: auto;
+}
+.pagra{
+  padding: 0px 10px;
+}
+.dobltbox{
+  padding: 100px 0px 0px 0px;
+}
+.OurValue{
+  font-family: "Poppins";
+font-size: 40px;
+font-weight: 600;
+line-height: 44px;
+}
+.carousel-item {
+  text-align: center;
+}
+
+.box {
+  width: 282px;
+  height:248px;
+  border: 0.89px solid #111111;
+  background: #FDFDFD;
+  border-radius: 17.71px;
+  margin: 0 auto;
+padding-bottom: 16px;
+box-shadow: 1px 0 0px 0px;
+}
+.boxcontent{
+  text-align: center;
+  padding: 20px;
+}
+.innova{
+  padding: 4px;
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 700;
+line-height: 26.4px;
+
+
+}
+.box:hover {
+  background-color:  #F8E643;
+  ; /* Change background color on hover */
+}
+.card {
+
+  margin-top: 100px;
+  text-align: center;
+
+}
+.card{
+  height: 360px;
+  width: 340px ;
+  border-radius: 20px;
+
+ 
+ 
+}
+.digitalmar{
+  text-align: center;
+}
+.card {
+ /* Adjusted to account for the gap on all sides */
+  text-align: center;
+}
+.Booking{
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+
+
+}
+.card{
+  padding: 20px;
+}
+.card img{
+  
+  height: 80px;
+  text-align: center;
+}
+.FacebooK{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.Lore{
+  width: 116px;
+height: 40px;
+text-align: center;
+
+border-radius: 12px ;
+border: 0px;
+
+
+}
+.custom-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.colorbox{
+  width: 356px;
+  height:92px;
+  padding: 20px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+margin-top: 20px;
+  opacity: 0px;
+  background: rgba(229, 229, 229, 1);
+  font-size: 16px;
+  padding-left: 10px;
+}
+.touch1{
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+width: 160px;
+background:
+linear-gradient(
+    to bottom,
+    transparent 50%,
+    #F8E643
+)
+
+
+}
+.Adressbox{
+  width: 356px;
+  height:130px;
+  padding: 20px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+margin-top: 20px;
+  opacity: 0px;
+  background: rgba(229, 229, 229, 1);
+  font-size: 16px;
+  padding-left: 10px;
+}
+.content2{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+width: 330px;
+letter-spacing: 1px;
+padding-bottom: 40px;
+}
+.Questions  {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: start;
+  
+}
+.head3{
+  text-align: start;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+/* .form-control{
+  width: 610px;
+  height: 48px;
+}
+.form-control2{
+  width: 500px;
+} */
+.form-control{
+  width: 610px;
+  height: 48px;
+  padding: 14px 19px 14px 19px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 40px;
+  
+}
+.phone-input {
+  width: calc(100% - 60px); /* Adjust the width as needed */
+}
+.btn10{
+  width: 610px;
+  height: 48px;
+  padding: 14px 19px 14px 19px;
+  gap: 10px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  margin-top: 40px;
+  border: 0cap;
+  background-color: #111111;
+  color: #F8E643;
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+
+padding: 7px;
+
+}
+.card:hover .Booking,
+        .card:hover .FacebooK {
+            color: #f1f1f1;
+        }
+
+
+
+        .card:hover .Lore {
+          color:#111111;
+          background-color: #F8E643; /* Change to your desired color */
+      }
